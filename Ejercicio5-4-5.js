@@ -9,3 +9,9 @@ function sumador(id1, id2){
 	var resultado = document.getElementById(id2);
 	resultado.innerHTML = "=" + suma;	
 }
+
+function otraSuma(id1){
+	var suma = document.getElementById(id1);
+	suma.innerHTML = Math.round(Math.random()*10) + " +" + 
+			Math.round(Math.random()*10);
+}
